@@ -1,0 +1,8 @@
+{
+  "extends": "loopback",
+  "rules": {
+    "space-before-function-paren": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "semi": ["error", "never"]
+  }
+}

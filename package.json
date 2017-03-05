@@ -1,0 +1,33 @@
+{
+  "name": "loopback-connector-neo4j-bolt",
+  "version": "1.0.0",
+  "description": "Neo4j database connector via bolt for the LoopBack framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsocrate/loopback-connector-neo4j-bolt.git"
+  },
+  "keywords": [
+    "connector",
+    "datasource",
+    "loopback",
+    "strongloop",
+    "neo4j",
+    "graph",
+    "nosql"
+  ],
+  "author": "Luiz Socrate <luiz@socrate.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lsocrate/loopback-connector-neo4j-bolt/issues"
+  },
+  "homepage": "https://github.com/lsocrate/loopback-connector-neo4j-bolt#readme",
+  "dependencies": {
+    "debug": "^2.6.1",
+    "loopback-connector": "^3.0.0",
+    "neo4j-driver": "^1.1.1"
+  }
+}
