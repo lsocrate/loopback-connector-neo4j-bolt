@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-neo4j-bolt",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Neo4j database connector via bolt for the LoopBack framework.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "dependencies": {
     "debug": "^2.6.1",
     "loopback-connector": "^3.0.0",
-    "neo4j-driver": "^1.1.1"
+    "neo4j-driver": "^1.1.1",
+    "uuid": "^3.0.1"
   }
 }
